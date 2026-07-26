@@ -1,7 +1,18 @@
 aid: datasembly
 name: Datasembly
-description: Datasembly is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Datasembly is a real-time retail intelligence platform that collects hyperlocal
+  pricing, promotion, and assortment data from physical and online retail
+  locations. The company reports gathering 12+ billion weekly prices across 150K+
+  stores from 230+ retailers, building a dataset of more than 2 trillion
+  observations that consumer packaged goods (CPG) brands and retailers use to
+  optimize pricing strategy, measure trade-spend effectiveness, monitor
+  competitors, evaluate key value items, and plan seasonal launches. Datasembly
+  delivers this competitive intelligence as fully shareable data and analytics
+  rather than a public developer API. The company was acquired by SPINS. This
+  profile was surfaced as a portfolio company of 500 Global and enriched by the
+  API Evangelist pipeline; no public API, developer portal, or API documentation
+  was found on the provider's surface at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/datasembly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://datasembly.com/wp-content/uploads/2025/12/datasembly-social-image.webp
 tags:
 - Company
+- Retail
+- Grocery
+- Pricing
+- Data
+- Analytics
+- CPG
+- Market Intelligence
+- Competitive Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://datasembly.com
+- type: About
+  url: https://datasembly.com/about-us/
+- type: Blog
+  url: https://datasembly.com/blogs/
+- type: Contact
+  url: https://datasembly.com/contact/
+- type: TermsOfService
+  url: https://datasembly.com/terms/
+- type: PrivacyPolicy
+  url: https://datasembly.com/privacy-policy/
+- type: DomainSecurity
+  url: security/datasembly-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
